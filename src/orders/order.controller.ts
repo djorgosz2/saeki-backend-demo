@@ -26,13 +26,11 @@ export class OrderController {
   //   return this.orderService.updateOrderStatus(id, dto.status);
   // }
 
-  @UseGuards(JwtAuthGuard)
   @Get(':id')
   async getOrder(@Param('id') id: string) {
     return this.orderService.getOrder(id);
   }
 
-  @UseGuards(JwtAuthGuard)
   @Get()
   async getAllOrders() {
     return this.orderService.getAllOrders();
