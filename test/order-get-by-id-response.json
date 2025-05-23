@@ -1,0 +1,19 @@
+{
+  "id": "52bc42f7-4f41-4c3c-95af-80202d7aa38e",
+  "file1Id": "11111111-1111-1111-1111-111111111111",
+  "file2Id": "22222222-2222-2222-2222-222222222222",
+  "purchaseOrderUrl": null,
+  "status": "pending",
+  "customer": {
+    "customerId": 1,
+    "name": "Test User",
+    "email": "testuser@example.com",
+    "company": null,
+    "address": null,
+    "phone": null
+  },
+  "material": {
+    "materialId": 1,
+    "materialName": "PLA"
+  }
+}
