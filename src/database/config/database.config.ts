@@ -3,7 +3,7 @@ import { registerAs } from '@nestjs/config';
 import { IsOptional, IsString, ValidateIf, IsBoolean } from 'class-validator';
 import validateConfig from '../../utils/validate-config';
 
-type DatabaseConfig = {
+export type DatabaseConfig = {
   url?: string;
   synchronize?: boolean;
 };
