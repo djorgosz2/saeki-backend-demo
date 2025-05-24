@@ -17,10 +17,10 @@ export class Order {
   @JoinColumn({ name: 'customer_id' })
   customer: Customer;
 
-  @Column()
+  @Column({ nullable: true })
   file1Id: string;
 
-  @Column()
+  @Column({ nullable: true })
   file2Id: string;
 
   @ManyToOne(() => Material)
